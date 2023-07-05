@@ -14,7 +14,7 @@ function calculate() {
   const loanTerm = Number(inputs[2].value) * 12;
 
   const monthlyPayment = getValue(principal, interestRate / 12, loanTerm);
-  outputs.innerText = `Monthly payment of yor Mortgage is ${monthlyPayment.toFixed(
+  outputs.innerText = `Monthly payment of your Mortgage is ${monthlyPayment.toFixed(
     2
   )}`;
 }
